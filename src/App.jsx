@@ -1,14 +1,14 @@
-import React from 'react'
-import Home from './pages/main/Home'
-
+import React from 'react';
+import PublicRoutes from './routes/PublicRoutes';
 
 function App() {
   return (
-    <div>
-      <Home />
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <PublicRoutes />
+      </main>
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;

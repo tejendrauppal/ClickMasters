@@ -8,9 +8,11 @@ import TestimonialSection from '../../components/features/TestimonialSection'
 import FAQSection from '../../components/features/FAQSection'
 import ClientsSection from '../../components/features/ClientsSection'
 
+
 function Home() {
   return (
     <div>
+      
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -19,6 +21,7 @@ function Home() {
       <ClientsSection />
       <FAQSection />
       <Footer />
+      
     </div>
   )
 }
